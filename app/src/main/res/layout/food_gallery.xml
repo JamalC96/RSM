@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!-- Here you put the rest of your current view-->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/editBarTV"
+            android:layout_width="600dp"
+            android:layout_height="25dp"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="2dp"
+            android:text="@string/foodgalleryheader"
+            android:textAlignment="center"
+            android:textColor="@color/colorFontWhite"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/steakimg"
+            android:layout_width="291dp"
+            android:layout_height="305dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Steak"
+            app:layout_constraintBottom_toTopOf="@+id/burgertext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/steaktext"
+            app:srcCompat="@drawable/steakimg" />
+
+        <TextView
+            android:id="@+id/steaktext"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/steak"
+            android:textColor="#000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/steakimg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.571" />
+
+        <ImageView
+            android:id="@+id/burgerimg"
+            android:layout_width="289dp"
+            android:layout_height="270dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Burger"
+            app:layout_constraintBottom_toTopOf="@+id/wingstext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/burgertext"
+            app:srcCompat="@drawable/burgerimg" />
+
+        <TextView
+            android:id="@+id/burgertext"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/burger"
+            android:textColor="#000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/burgerimg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/steakimg"
+            app:layout_constraintVertical_bias="0.803" />
+
+        <TextView
+            android:id="@+id/wingstext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/wings"
+            android:textColor="#000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/wingsimg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/burgerimg"
+            app:layout_constraintVertical_bias="0.083" />
+
+        <ImageView
+            android:id="@+id/wingsimg"
+            android:layout_width="276dp"
+            android:layout_height="351dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Wings"
+            android:textColor="#000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/ringstext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wingstext"
+            app:srcCompat="@drawable/wingsimg" />
+
+        <TextView
+            android:id="@+id/ringstext"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/rings"
+            android:textColor="#000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/ringsimg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wingsimg" />
+
+        <ImageView
+            android:id="@+id/ringsimg"
+            android:layout_width="269dp"
+            android:layout_height="369dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Afro"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ringstext"
+            app:srcCompat="@drawable/ringsimg" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_menu_addcoffee"
+            android:title="Add a Meal" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_menu_search"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_favourites"
+            android:icon="@drawable/ic_menu_favourites"
+            android:title="View Favourites" />
+        <item
+            android:id="@+id/nav_recipelist"
+            android:icon="@drawable/notes"
+            android:title="View Recipe List" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/burgermenu"
+            android:title="Food Gallery" />
+        <item
+            android:id="@+id/nav_youtube"
+            android:icon="@drawable/youtube"
+            android:title="Food Videos" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Upload Photo" />
+    </group>
+
+    <item android:title="Communicate &amp; Locate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/ic_menu_map"
+                android:title="View on Map" />
+        </menu>
+    </item>
+
+</menu>

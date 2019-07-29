@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="app_name">RSM</string>
+    <string name="appHelp">This is the help screen for RedSkyMeals</string>
+    <string name="appHelpExtra">Basically\, if you need help on using this app, you probably shouldn\'t be using it</string>
+    <string name="appDisplayName">RedSkyMeals</string>
+    <string name="appDesc">RedSkyMeals allows the user to keep track of their meals and future orders and locations.</string>
+    <string name="appMoreInfo">For more information about RedSkyMeals visit the website www.redskymeals.ie</string>
+    <string name="appAbout">About RedSkyMeals</string>
+    <string name="appWebsite">RedSkyMeals@justeat.ie</string>
+    <string name="developer">Developed by Jamal Cunningham</string>
+
+    <string name="searchFoodsLbl">Search Meals\'s</string>
+    <string name="favouritesFoodLbl">Favourite Meals\'s</string>
+    <string name="addAFoodLbl">Meal Check In</string>
+    <string name="addFoodBtnLbl">Add Meal</string>
+    <string name="saveFoodBtn">Save Meal</string>
+    <string name="recentlyViewedLbl">Recently Added Meal\'s</string>
+    <string name="foodNameLbl">Name :</string>
+    <string name="foodShopLbl">Shop :</string>
+    <string name="foodPriceLbl">Price :</string>
+    <string name="foodRatingLbl">Star Rating</string>
+    <string name="foodDetailsLbl">Full Meal Details</string>
+    <string name="informationLbl">Information</string>
+    <string name="emptyMessageLbl">You have no Meal\'s added, go grab a meal!</string>
+    <string name="deleteFoodsLbl">Delete Meals</string>
+    <string name="editFoodLbl">Edit a Meal</string>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+
+    <string name="appTitle">Start Your Recipe List Now!</string>
+
+    <string name="steak">SIRLOIN STEAK 4 OZ</string>
+    <string name="burger">CRISPY BACON BURGER</string>
+    <string name="wings">SMOKY BBQ WINGS</string>
+    <string name="rings"> CARAMELIZDED ONION RINGS</string>
+    <string name="foodgalleryheader">Food Gallery</string>
+
+    <string name="facebook_app_id">460914911421893</string>
+    <string name="fb_login_protocol_scheme">fb460914911421893</string>
+
+
+    <string-array name="foodTypes">
+        <item>All Types</item>
+        <item>Favourites</item>
+        <item>\> 3\* Rating</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
